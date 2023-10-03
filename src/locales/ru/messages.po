@@ -33,9 +33,19 @@ msgstr "Совокупность высококачественных ценов
 msgid "App"
 msgstr ""
 
+#: src/components/TokenCard/TokenCard.js
+#: src/components/TokenCard/TokenCard.js
+msgid "Arbitrum APR:"
+msgstr ""
+
 #: src/pages/Home/Home.js
 msgid "Available on your preferred network"
 msgstr "Доступно в предпочитаемой сети"
+
+#: src/components/TokenCard/TokenCard.js
+#: src/components/TokenCard/TokenCard.js
+msgid "Avalanche APR:"
+msgstr ""
 
 #: src/components/Header/AppHeaderLinks.tsx
 msgid "Buy"

@@ -33,9 +33,19 @@ msgstr "Ein Aggregat aus hochwertigen Kursen bestimmt, wann Liquidationen stattf
 msgid "App"
 msgstr "App"
 
+#: src/components/TokenCard/TokenCard.js
+#: src/components/TokenCard/TokenCard.js
+msgid "Arbitrum APR:"
+msgstr ""
+
 #: src/pages/Home/Home.js
 msgid "Available on your preferred network"
 msgstr "Verfügbar in deinem bevorzugten Netzwerk"
+
+#: src/components/TokenCard/TokenCard.js
+#: src/components/TokenCard/TokenCard.js
+msgid "Avalanche APR:"
+msgstr ""
 
 #: src/components/Header/AppHeaderLinks.tsx
 msgid "Buy"

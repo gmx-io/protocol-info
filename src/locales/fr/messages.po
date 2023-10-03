@@ -33,9 +33,19 @@ msgstr "Un agrégat de flux de prix de qualité supérieure détermine quand les
 msgid "App"
 msgstr "Application"
 
+#: src/components/TokenCard/TokenCard.js
+#: src/components/TokenCard/TokenCard.js
+msgid "Arbitrum APR:"
+msgstr ""
+
 #: src/pages/Home/Home.js
 msgid "Available on your preferred network"
 msgstr "Disponible sur le réseau de votre choix"
+
+#: src/components/TokenCard/TokenCard.js
+#: src/components/TokenCard/TokenCard.js
+msgid "Avalanche APR:"
+msgstr ""
 
 #: src/components/Header/AppHeaderLinks.tsx
 msgid "Buy"
