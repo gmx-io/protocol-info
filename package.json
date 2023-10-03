@@ -1,5 +1,5 @@
 {
-  "name": "gambit-interface",
+  "name": "gmx-protocol-info",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
