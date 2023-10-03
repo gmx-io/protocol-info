@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import ExternalLink from "components/ExternalLink/ExternalLink";
 import { ARBITRUM, AVALANCHE } from "config/chains";
 import { getIcon } from "config/icons";
-// import APRLabel from "../APRLabel/APRLabel";
+import APRLabel from "../APRLabel/APRLabel";
 import { HeaderLink } from "../Header/HeaderLink";
 
 const glpIcon = getIcon("common", "glp");
@@ -44,8 +44,8 @@ export default function TokenCard({ showRedirectModal, redirectPopupTimestamp })
             <Trans>GMX is the utility and governance token. Accrues 30% of the platform's generated fees.</Trans>
           </div>
           <div className="Home-token-card-option-apr">
-            {/* <Trans>Arbitrum APR:</Trans> <APRLabel chainId={ARBITRUM} label="gmxAprTotal" />,{" "}
-            <Trans>Avalanche APR:</Trans> <APRLabel chainId={AVALANCHE} label="gmxAprTotal" key="AVALANCHE" /> */}
+            <Trans>Arbitrum APR:</Trans> <APRLabel chainId={ARBITRUM} label="gmxAprTotal" />,{" "}
+            <Trans>Avalanche APR:</Trans> <APRLabel chainId={AVALANCHE} label="gmxAprTotal" key="AVALANCHE" />
           </div>
           <div className="Home-token-card-option-action">
             <div className="buy">
@@ -106,8 +106,8 @@ export default function TokenCard({ showRedirectModal, redirectPopupTimestamp })
             </Trans>
           </div>
           <div className="Home-token-card-option-apr">
-            {/* <Trans>Arbitrum APR:</Trans> <APRLabel chainId={ARBITRUM} label="glpAprTotal" key="ARBITRUM" />,{" "}
-            <Trans>Avalanche APR:</Trans> <APRLabel chainId={AVALANCHE} label="glpAprTotal" key="AVALANCHE" /> */}
+            <Trans>Arbitrum APR:</Trans> <APRLabel chainId={ARBITRUM} label="glpAprTotal" key="ARBITRUM" />,{" "}
+            <Trans>Avalanche APR:</Trans> <APRLabel chainId={AVALANCHE} label="glpAprTotal" key="AVALANCHE" />
           </div>
           <div className="Home-token-card-option-action">
             <div className="buy">

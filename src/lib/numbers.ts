@@ -83,3 +83,28 @@ export const formatAmount = (
   }
   return amountStr;
 };
+
+export const parseValue = (value: string, tokenDecimals: number) => {
+  const pValue = parseFloat(value);
+
+  if (isNaN(pValue)) {
+    return undefined;
+  }
+  value = limitDecimals(value, tokenDecimals);
+  const amount = ethers.utils.parseUnits(value, tokenDecimals);
+  return bigNumberify(amount);
+};
+
+export const formatKeyAmount = (
+  map: any,
+  key: string,
+  tokenDecimals: number,
+  displayDecimals: number,
+  useCommas?: boolean
+) => {
+  if (!map || !map[key]) {
+    return "...";
+  }
+
+  return formatAmount(map[key], tokenDecimals, displayDecimals, useCommas);
+};

@@ -17,11 +17,11 @@ import RewardReader from "abis/RewardReader.json";
 import Token from "abis/Token.json";
 import GlpManager from "abis/GlpManager.json";
 
-import { useGmxPrice } from "domain/legacy";
+import { useGmxPrice } from "lib/legacy";
 
 import { getContract } from "config/contracts";
 import { getServerUrl } from "config/backend";
-import { contractFetcher } from "lib/contracts";
+import { contractFetcher } from "lib/contracts/contractFetcher";
 import { formatKeyAmount } from "lib/numbers";
 
 export default function APRLabel({ chainId, label }) {
