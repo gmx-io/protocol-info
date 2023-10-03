@@ -1,0 +1,206 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2022-08-06 13:30+0530\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: ko\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Tourist\n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: src/pages/PageNotFound/PageNotFound.js
+msgid "<0>Return to </0><1>Homepage</1> <2>or </2> <3>Trade</3>"
+msgstr "<1>홈페이지</1> <2>혹은</2> <3>트레이드 페이지</3><0>로 돌아가기</0>"
+
+#: src/components/ModalViews/RedirectModal.js
+msgid "Agree"
+msgstr "동의하기"
+
+#: src/components/ModalViews/RedirectModal.js
+msgid "Alternative links can be found in the <0>docs</0>.<1/><2/>By clicking Agree you accept the <3>T&Cs</3> and <4>Referral T&Cs</4>.<5/><6/>"
+msgstr "이외의 링크는 <0>docs</0>에서 확인할 수 있습니다.<1/><2/>동의 버튼을 클릭하여 <3>T&Cs</3> 그리고 <4>Referral T&Cs</4>에 동의합니다.<5/><6/>"
+
+#: src/pages/Home/Home.js
+msgid "An aggregate of high-quality price feeds determine when liquidations occur. This keeps positions safe from temporary wicks."
+msgstr "고품질의 여러 가격 피드를 통해 청산 발생 시기를 결정합니다. 이것은 일시적인 가격 변화로부터 포지션을 안전하게 유지합니다."
+
+#: src/components/Header/HomeHeaderLinks.tsx
+msgid "App"
+msgstr ""
+
+#: src/pages/Home/Home.js
+msgid "Available on your preferred network"
+msgstr "선택한 네트워크에서 이용가능"
+
+#: src/components/Header/AppHeaderLinks.tsx
+msgid "Buy"
+msgstr "구매"
+
+#: src/components/TokenCard/TokenCard.js
+#: src/components/TokenCard/TokenCard.js
+#: src/components/TokenCard/TokenCard.js
+msgid "Buy on Arbitrum"
+msgstr "Arbitrum에서 구매"
+
+#: src/components/TokenCard/TokenCard.js
+#: src/components/TokenCard/TokenCard.js
+#: src/components/TokenCard/TokenCard.js
+msgid "Buy on Avalanche"
+msgstr "Avalanche에서 구매"
+
+#: src/components/Header/AppHeaderLinks.tsx
+msgid "Dashboard"
+msgstr "대시보드"
+
+#: src/lib/legacy.ts
+msgid "Decentralized Perpetual Exchange | GMX"
+msgstr ""
+
+#: src/pages/Home/Home.js
+msgid "Decentralized<0/>Perpetual Exchange"
+msgstr "탈중앙화<0/>퍼페추얼 거래소"
+
+#: src/components/Header/AppHeaderLinks.tsx
+#: src/components/Header/HomeHeaderLinks.tsx
+msgid "Docs"
+msgstr ""
+
+#: src/components/ModalViews/RedirectModal.js
+msgid "Don't show this message again for 30 days."
+msgstr "30일 동안 해당 메시지 다시보지 않기"
+
+#: src/components/Header/AppHeaderLinks.tsx
+msgid "Earn"
+msgstr "보상"
+
+#: src/components/Header/AppHeaderLinks.tsx
+msgid "Ecosystem"
+msgstr "이코시스템"
+
+#: src/pages/Home/Home.js
+msgid "Enter and exit positions with minimal spread and low price impact. Get the optimal price without incurring additional costs."
+msgstr ""
+
+#: src/components/TokenCard/TokenCard.js
+msgid "GLP is the liquidity provider token for GMX V1 markets. Accrues 70% of the V1 markets generated fees."
+msgstr ""
+
+#: src/components/TokenCard/TokenCard.js
+msgid "GM is the liquidity provider token for GMX V2 markets. Accrues 63% of the V2 markets generated fees."
+msgstr ""
+
+#: src/pages/Home/Home.js
+msgid "GMX is currently live on Arbitrum and Avalanche."
+msgstr "GMX는 현재 Arbitrum과 Avalanche에서 이용할 수 있습니다."
+
+#: src/components/TokenCard/TokenCard.js
+msgid "GMX is the utility and governance token. Accrues 30% of the platform's generated fees."
+msgstr "GMX는 유틸리티 및 거버넌스 토큰입니다. 플랫폼에서 생성되는 수수료의 30%를 축적하세요."
+
+#: src/components/Common/SEO.js
+msgid "GMX | Decentralized Perpetual Exchange"
+msgstr ""
+
+#: src/components/Header/HomeHeaderLinks.tsx
+msgid "Governance"
+msgstr ""
+
+#: src/components/Header/AppHeaderUser.tsx
+#: src/components/ModalViews/RedirectModal.js
+#: src/pages/Home/Home.js
+msgid "Launch App"
+msgstr "앱 실행하기"
+
+#: src/components/Footer/constants.ts
+msgid "Media Kit"
+msgstr "미디어 키트"
+
+#: src/pages/Home/Home.js
+msgid "Open Interest"
+msgstr "미결제 약정"
+
+#: src/pages/Home/Home.js
+msgid "Open positions through a simple swap interface. Conveniently swap from any supported asset into the position of your choice."
+msgstr "간단한 스왑 인터페이스를 통해 포지션을 열어보세요. 지원되는 자산내에서 원하는 포지션으로 편리하게 스왑할 수 있습니다."
+
+#: src/pages/PageNotFound/PageNotFound.js
+#: src/pages/PageNotFound/PageNotFound.js
+msgid "Page not found"
+msgstr "페이지를 찾을 수 없습니다"
+
+#: src/components/Header/HomeHeaderLinks.tsx
+msgid "Protocol"
+msgstr ""
+
+#: src/components/TokenCard/TokenCard.js
+#: src/components/TokenCard/TokenCard.js
+#: src/components/TokenCard/TokenCard.js
+msgid "Read more"
+msgstr "더 알아보기"
+
+#: src/pages/Home/Home.js
+msgid "Reduce Liquidation Risks"
+msgstr "청산 위험 감소하기"
+
+#: src/components/Footer/constants.ts
+#: src/pages/ReferralTerms/ReferralTerms.js
+msgid "Referral Terms"
+msgstr "추천 약관"
+
+#: src/components/Header/AppHeaderLinks.tsx
+msgid "Referrals"
+msgstr "추천"
+
+#: src/pages/Home/Home.js
+msgid "Save on Costs"
+msgstr "비용 절감"
+
+#: src/components/NetworkDropdown/LanguagePopupHome.tsx
+msgid "Select Language"
+msgstr ""
+
+#: src/pages/Home/Home.js
+msgid "Simple Swaps"
+msgstr "간단한 스왑"
+
+#: src/components/Footer/constants.ts
+#: src/pages/TermsAndConditions/TermsAndConditions.js
+msgid "Terms and Conditions"
+msgstr "약관"
+
+#: src/components/ModalViews/RedirectModal.js
+msgid "The website is a community deployed and maintained instance of the open source <0>GMX front end</0>, hosted and served on the distributed, peer-to-peer <1>IPFS network</1>."
+msgstr "웹사이트는 오픈소스인 <0>GMX front end</0>를 이용하고 커뮤니티에의해 배포되며, P2P <1>IPFS network<1/>에 의해 서빙및 호스팅됩니다."
+
+#: src/pages/Home/Home.js
+msgid "Three tokens create our ecosystem"
+msgstr ""
+
+#: src/pages/Home/Home.js
+msgid "Total Trading Volume"
+msgstr "총 트레이딩 거래량"
+
+#: src/pages/Home/Home.js
+msgid "Total Users"
+msgstr "총 유저"
+
+#: src/pages/Home/Home.js
+msgid "Trade BTC, ETH, AVAX and other top cryptocurrencies with up to 50x leverage directly from your wallet"
+msgstr ""
+
+#: src/components/Common/SEO.js
+msgid "Trade spot or perpetual BTC, ETH, AVAX and other top cryptocurrencies with up to 50x leverage directly from your wallet on Arbitrum and Avalanche."
+msgstr ""
+
+#: src/components/Header/HomeHeaderLinks.tsx
+msgid "Voting"
+msgstr ""
+
+#: src/components/ModalViews/RedirectModal.js
+msgid "You are leaving GMX.io and will be redirected to a third party, independent website."
+msgstr "귀하는 GMX.io 페이지를 벗어나, 써드파티 웹사이트로 리다이렉트되고 있습니다."

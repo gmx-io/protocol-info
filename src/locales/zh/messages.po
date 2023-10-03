@@ -1,0 +1,206 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2022-08-06 13:30+0530\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: zh\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: src/pages/PageNotFound/PageNotFound.js
+msgid "<0>Return to </0><1>Homepage</1> <2>or </2> <3>Trade</3>"
+msgstr "<0>返回 </0><1>主页</1> <2>or </2> <3>交易</3>"
+
+#: src/components/ModalViews/RedirectModal.js
+msgid "Agree"
+msgstr "同意"
+
+#: src/components/ModalViews/RedirectModal.js
+msgid "Alternative links can be found in the <0>docs</0>.<1/><2/>By clicking Agree you accept the <3>T&Cs</3> and <4>Referral T&Cs</4>.<5/><6/>"
+msgstr "其他选项链接可在<0>docs</0>.<1/><2/>点选同意接受<3>相关条款</3> 以及 <4>以及推荐条款</4>.<5/><6/>后获得"
+
+#: src/pages/Home/Home.js
+msgid "An aggregate of high-quality price feeds determine when liquidations occur. This keeps positions safe from temporary wicks."
+msgstr "高质量价格供给的总和决定了清算时间。使头寸不受暂时波动的影响"
+
+#: src/components/Header/HomeHeaderLinks.tsx
+msgid "App"
+msgstr ""
+
+#: src/pages/Home/Home.js
+msgid "Available on your preferred network"
+msgstr "可在您的首选网络上使用"
+
+#: src/components/Header/AppHeaderLinks.tsx
+msgid "Buy"
+msgstr "购买"
+
+#: src/components/TokenCard/TokenCard.js
+#: src/components/TokenCard/TokenCard.js
+#: src/components/TokenCard/TokenCard.js
+msgid "Buy on Arbitrum"
+msgstr "在Arbitrum上购买"
+
+#: src/components/TokenCard/TokenCard.js
+#: src/components/TokenCard/TokenCard.js
+#: src/components/TokenCard/TokenCard.js
+msgid "Buy on Avalanche"
+msgstr "在Avalanche上购买"
+
+#: src/components/Header/AppHeaderLinks.tsx
+msgid "Dashboard"
+msgstr "仪表板"
+
+#: src/lib/legacy.ts
+msgid "Decentralized Perpetual Exchange | GMX"
+msgstr ""
+
+#: src/pages/Home/Home.js
+msgid "Decentralized<0/>Perpetual Exchange"
+msgstr "去中心化<0/>永续交易所"
+
+#: src/components/Header/AppHeaderLinks.tsx
+#: src/components/Header/HomeHeaderLinks.tsx
+msgid "Docs"
+msgstr ""
+
+#: src/components/ModalViews/RedirectModal.js
+msgid "Don't show this message again for 30 days."
+msgstr "30天内不要再显示此信息"
+
+#: src/components/Header/AppHeaderLinks.tsx
+msgid "Earn"
+msgstr "赚取"
+
+#: src/components/Header/AppHeaderLinks.tsx
+msgid "Ecosystem"
+msgstr "生态系统"
+
+#: src/pages/Home/Home.js
+msgid "Enter and exit positions with minimal spread and low price impact. Get the optimal price without incurring additional costs."
+msgstr ""
+
+#: src/components/TokenCard/TokenCard.js
+msgid "GLP is the liquidity provider token for GMX V1 markets. Accrues 70% of the V1 markets generated fees."
+msgstr ""
+
+#: src/components/TokenCard/TokenCard.js
+msgid "GM is the liquidity provider token for GMX V2 markets. Accrues 63% of the V2 markets generated fees."
+msgstr ""
+
+#: src/pages/Home/Home.js
+msgid "GMX is currently live on Arbitrum and Avalanche."
+msgstr "GMX目前在Arbitrum和Avalanche上线"
+
+#: src/components/TokenCard/TokenCard.js
+msgid "GMX is the utility and governance token. Accrues 30% of the platform's generated fees."
+msgstr "GMX是效用和治理代币。拥有30%累积平台产生的费用"
+
+#: src/components/Common/SEO.js
+msgid "GMX | Decentralized Perpetual Exchange"
+msgstr ""
+
+#: src/components/Header/HomeHeaderLinks.tsx
+msgid "Governance"
+msgstr ""
+
+#: src/components/Header/AppHeaderUser.tsx
+#: src/components/ModalViews/RedirectModal.js
+#: src/pages/Home/Home.js
+msgid "Launch App"
+msgstr "启动应用程序"
+
+#: src/components/Footer/constants.ts
+msgid "Media Kit"
+msgstr "多媒体工具"
+
+#: src/pages/Home/Home.js
+msgid "Open Interest"
+msgstr "开启利息"
+
+#: src/pages/Home/Home.js
+msgid "Open positions through a simple swap interface. Conveniently swap from any supported asset into the position of your choice."
+msgstr "通过简单的互换界面开立头寸。方便地从任何币值换成你选择的头寸"
+
+#: src/pages/PageNotFound/PageNotFound.js
+#: src/pages/PageNotFound/PageNotFound.js
+msgid "Page not found"
+msgstr "没有找到页面"
+
+#: src/components/Header/HomeHeaderLinks.tsx
+msgid "Protocol"
+msgstr ""
+
+#: src/components/TokenCard/TokenCard.js
+#: src/components/TokenCard/TokenCard.js
+#: src/components/TokenCard/TokenCard.js
+msgid "Read more"
+msgstr "了解更多"
+
+#: src/pages/Home/Home.js
+msgid "Reduce Liquidation Risks"
+msgstr "降低清算风险"
+
+#: src/components/Footer/constants.ts
+#: src/pages/ReferralTerms/ReferralTerms.js
+msgid "Referral Terms"
+msgstr "推荐条款"
+
+#: src/components/Header/AppHeaderLinks.tsx
+msgid "Referrals"
+msgstr "推荐人"
+
+#: src/pages/Home/Home.js
+msgid "Save on Costs"
+msgstr "节省成本"
+
+#: src/components/NetworkDropdown/LanguagePopupHome.tsx
+msgid "Select Language"
+msgstr ""
+
+#: src/pages/Home/Home.js
+msgid "Simple Swaps"
+msgstr "简易交易"
+
+#: src/components/Footer/constants.ts
+#: src/pages/TermsAndConditions/TermsAndConditions.js
+msgid "Terms and Conditions"
+msgstr "条款及细则"
+
+#: src/components/ModalViews/RedirectModal.js
+msgid "The website is a community deployed and maintained instance of the open source <0>GMX front end</0>, hosted and served on the distributed, peer-to-peer <1>IPFS network</1>."
+msgstr "该网站是一个社区部署和维护的开放资源<0>GMX前端的实例</0>，在分布式、对等的<1>IPFS网络</1>上托管和服务"
+
+#: src/pages/Home/Home.js
+msgid "Three tokens create our ecosystem"
+msgstr ""
+
+#: src/pages/Home/Home.js
+msgid "Total Trading Volume"
+msgstr "总交易量"
+
+#: src/pages/Home/Home.js
+msgid "Total Users"
+msgstr "用户总数"
+
+#: src/pages/Home/Home.js
+msgid "Trade BTC, ETH, AVAX and other top cryptocurrencies with up to 50x leverage directly from your wallet"
+msgstr ""
+
+#: src/components/Common/SEO.js
+msgid "Trade spot or perpetual BTC, ETH, AVAX and other top cryptocurrencies with up to 50x leverage directly from your wallet on Arbitrum and Avalanche."
+msgstr ""
+
+#: src/components/Header/HomeHeaderLinks.tsx
+msgid "Voting"
+msgstr ""
+
+#: src/components/ModalViews/RedirectModal.js
+msgid "You are leaving GMX.io and will be redirected to a third party, independent website."
+msgstr "您正要离开GMX.io，并且将被重新导向到第三方独立网站"

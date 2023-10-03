@@ -1,0 +1,206 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2022-08-06 13:30+0530\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: ru\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: src/pages/PageNotFound/PageNotFound.js
+msgid "<0>Return to </0><1>Homepage</1> <2>or </2> <3>Trade</3>"
+msgstr "<0>Вернуться к </0><1>Домашняя страница</1> <2>или </2> <3> Торговля</3>"
+
+#: src/components/ModalViews/RedirectModal.js
+msgid "Agree"
+msgstr "Согласен"
+
+#: src/components/ModalViews/RedirectModal.js
+msgid "Alternative links can be found in the <0>docs</0>.<1/><2/>By clicking Agree you accept the <3>T&Cs</3> and <4>Referral T&Cs</4>.<5/><6/>"
+msgstr "Альтернативные ссылки можно найти в <0>документах</0>.<1/><2/>Нажав кнопку Согласен, вы принимаете <3>T&Cs</3> и <4>Referral T&Cs</4>.<5/><6/>"
+
+#: src/pages/Home/Home.js
+msgid "An aggregate of high-quality price feeds determine when liquidations occur. This keeps positions safe from temporary wicks."
+msgstr "Совокупность высококачественных ценовых сигналов определяет, когда происходит ликвидация. Это позволяет обезопасить позиции от временных колебаний."
+
+#: src/components/Header/HomeHeaderLinks.tsx
+msgid "App"
+msgstr ""
+
+#: src/pages/Home/Home.js
+msgid "Available on your preferred network"
+msgstr "Доступно в предпочитаемой сети"
+
+#: src/components/Header/AppHeaderLinks.tsx
+msgid "Buy"
+msgstr "Купить"
+
+#: src/components/TokenCard/TokenCard.js
+#: src/components/TokenCard/TokenCard.js
+#: src/components/TokenCard/TokenCard.js
+msgid "Buy on Arbitrum"
+msgstr "Купить на Arbitrum"
+
+#: src/components/TokenCard/TokenCard.js
+#: src/components/TokenCard/TokenCard.js
+#: src/components/TokenCard/TokenCard.js
+msgid "Buy on Avalanche"
+msgstr "Купить на Avalanche"
+
+#: src/components/Header/AppHeaderLinks.tsx
+msgid "Dashboard"
+msgstr "Панель"
+
+#: src/lib/legacy.ts
+msgid "Decentralized Perpetual Exchange | GMX"
+msgstr ""
+
+#: src/pages/Home/Home.js
+msgid "Decentralized<0/>Perpetual Exchange"
+msgstr "Децентрализованная<0/>Бессрочная Биржа"
+
+#: src/components/Header/AppHeaderLinks.tsx
+#: src/components/Header/HomeHeaderLinks.tsx
+msgid "Docs"
+msgstr "Документация"
+
+#: src/components/ModalViews/RedirectModal.js
+msgid "Don't show this message again for 30 days."
+msgstr "Не показывайте это сообщение снова в течение 30 дней."
+
+#: src/components/Header/AppHeaderLinks.tsx
+msgid "Earn"
+msgstr "Зарабатывать"
+
+#: src/components/Header/AppHeaderLinks.tsx
+msgid "Ecosystem"
+msgstr "Экосистема"
+
+#: src/pages/Home/Home.js
+msgid "Enter and exit positions with minimal spread and low price impact. Get the optimal price without incurring additional costs."
+msgstr ""
+
+#: src/components/TokenCard/TokenCard.js
+msgid "GLP is the liquidity provider token for GMX V1 markets. Accrues 70% of the V1 markets generated fees."
+msgstr ""
+
+#: src/components/TokenCard/TokenCard.js
+msgid "GM is the liquidity provider token for GMX V2 markets. Accrues 63% of the V2 markets generated fees."
+msgstr ""
+
+#: src/pages/Home/Home.js
+msgid "GMX is currently live on Arbitrum and Avalanche."
+msgstr "В настоящее время GMX работает на Arbitrum и Avalanche."
+
+#: src/components/TokenCard/TokenCard.js
+msgid "GMX is the utility and governance token. Accrues 30% of the platform's generated fees."
+msgstr "GMX это токен утилиты и управления. Обеспечивает 30% генерируемых платформой комиссий."
+
+#: src/components/Common/SEO.js
+msgid "GMX | Decentralized Perpetual Exchange"
+msgstr ""
+
+#: src/components/Header/HomeHeaderLinks.tsx
+msgid "Governance"
+msgstr ""
+
+#: src/components/Header/AppHeaderUser.tsx
+#: src/components/ModalViews/RedirectModal.js
+#: src/pages/Home/Home.js
+msgid "Launch App"
+msgstr "Запустить Приложение"
+
+#: src/components/Footer/constants.ts
+msgid "Media Kit"
+msgstr "Медиа-Кит"
+
+#: src/pages/Home/Home.js
+msgid "Open Interest"
+msgstr "Открытый Интерес"
+
+#: src/pages/Home/Home.js
+msgid "Open positions through a simple swap interface. Conveniently swap from any supported asset into the position of your choice."
+msgstr "Открывайте позиции с помощью простого интерфейса обменник. Удобный обмен из любого поддерживаемого актива в выбранную вами позицию."
+
+#: src/pages/PageNotFound/PageNotFound.js
+#: src/pages/PageNotFound/PageNotFound.js
+msgid "Page not found"
+msgstr "Страница не найдена"
+
+#: src/components/Header/HomeHeaderLinks.tsx
+msgid "Protocol"
+msgstr ""
+
+#: src/components/TokenCard/TokenCard.js
+#: src/components/TokenCard/TokenCard.js
+#: src/components/TokenCard/TokenCard.js
+msgid "Read more"
+msgstr "Читать больше"
+
+#: src/pages/Home/Home.js
+msgid "Reduce Liquidation Risks"
+msgstr "Снизить Риски Ликвидации"
+
+#: src/components/Footer/constants.ts
+#: src/pages/ReferralTerms/ReferralTerms.js
+msgid "Referral Terms"
+msgstr "Реферальные Условия"
+
+#: src/components/Header/AppHeaderLinks.tsx
+msgid "Referrals"
+msgstr "Рефералы"
+
+#: src/pages/Home/Home.js
+msgid "Save on Costs"
+msgstr "Сэкономь на Расходах"
+
+#: src/components/NetworkDropdown/LanguagePopupHome.tsx
+msgid "Select Language"
+msgstr ""
+
+#: src/pages/Home/Home.js
+msgid "Simple Swaps"
+msgstr "Простые Обмены"
+
+#: src/components/Footer/constants.ts
+#: src/pages/TermsAndConditions/TermsAndConditions.js
+msgid "Terms and Conditions"
+msgstr "Правила и Условия"
+
+#: src/components/ModalViews/RedirectModal.js
+msgid "The website is a community deployed and maintained instance of the open source <0>GMX front end</0>, hosted and served on the distributed, peer-to-peer <1>IPFS network</1>."
+msgstr "Сайт представляет собой развернутый и поддерживаемый сообществом экземпляр открытого источника <0>GMX фронт-энда</0>, размещенный и обслуживаемый в распределенной, peer-to-peer <1>IPFS сети</1>."
+
+#: src/pages/Home/Home.js
+msgid "Three tokens create our ecosystem"
+msgstr ""
+
+#: src/pages/Home/Home.js
+msgid "Total Trading Volume"
+msgstr "Общий Объем Торгов"
+
+#: src/pages/Home/Home.js
+msgid "Total Users"
+msgstr "Всего Пользователей"
+
+#: src/pages/Home/Home.js
+msgid "Trade BTC, ETH, AVAX and other top cryptocurrencies with up to 50x leverage directly from your wallet"
+msgstr "Торгуйте BTC, ETH, AVAX и другими популярными криптовалютами с кредитным плечом до 50x прямо из вашего кошелька."
+
+#: src/components/Common/SEO.js
+msgid "Trade spot or perpetual BTC, ETH, AVAX and other top cryptocurrencies with up to 50x leverage directly from your wallet on Arbitrum and Avalanche."
+msgstr ""
+
+#: src/components/Header/HomeHeaderLinks.tsx
+msgid "Voting"
+msgstr ""
+
+#: src/components/ModalViews/RedirectModal.js
+msgid "You are leaving GMX.io and will be redirected to a third party, independent website."
+msgstr "Вы покидаете сайт GMX.io и будете перенаправлены на сторонний, независимый сайт."
