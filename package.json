@@ -44,7 +44,7 @@
   "scripts": {
     "start": "yarn lingui:prepare && PORT=3010 react-app-rewired start",
     "start-win": "set PORT=3010&react-app-rewired start",
-    "build": "INLINE_RUNTIME_CHUNK=false react-app-rewired build",
+    "build": "INLINE_RUNTIME_CHUNK=false react-app-rewired build --stats",
     "test": "react-app-rewired test",
     "test:ci": "react-app-rewired test --watchAll=false --transformIgnorePatterns \"node_modules/(?!@wagmi)/\"",
     "eject": "react-scripts eject",
@@ -55,7 +55,8 @@
     "compile": "lingui compile",
     "lingui:prepare": "NODE_ENV=development yarn extract && yarn compile",
     "lingui:generate": "NODE_ENV=development lingui extract --overwrite",
-    "tscheck": "tsc -p tsconfig.json --noEmit"
+    "tscheck": "tsc -p tsconfig.json --noEmit",
+    "analyze": "webpack-bundle-analyzer build/bundle-stats.json"
   },
   "eslintConfig": {
     "extends": [
@@ -97,7 +98,8 @@
     "husky": "7.0.4",
     "lint-staged": "12.3.4",
     "prettier": "2.5.1",
-    "react-app-rewired": "2.2.1"
+    "react-app-rewired": "2.2.1",
+    "webpack-bundle-analyzer": "^4.9.1"
   },
   "lint-staged": {
     "src/**/*.{js,ts,jsx,tsx}": [
