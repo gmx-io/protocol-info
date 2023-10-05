@@ -10,7 +10,7 @@ type Props = {
   showRedirectModal: (to: string) => void;
 };
 
-export default function HomeHeaderRight({ redirectPopupTimestamp, showRedirectModal }: Props) {
+export default function HeaderRight({ redirectPopupTimestamp, showRedirectModal }: Props) {
   const tradeLink = true ? "/trade" : "/v2";
 
   return (
