@@ -5,13 +5,13 @@ import { RiMenuLine } from "react-icons/ri";
 import { FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-import { AppHeaderUser } from "./AppHeaderUser";
+import HomeHeaderRight from "./HomeHeaderRight";
 
 import logoImg from "img/logo_GMX.svg";
 import logoSmallImg from "img/logo_GMX_small.svg";
 import { AnimatePresence as FramerAnimatePresence, motion } from "framer-motion";
 
-import { HomeHeaderLinks } from "./HomeHeaderLinks";
+import HomeHeaderLeft from "./HomeHeaderLeft";
 
 // Fix framer-motion old React FC type (solved in react 18)
 const AnimatePresence = (props: React.ComponentProps<typeof FramerAnimatePresence> & { children: ReactNode }) => (
@@ -88,10 +88,10 @@ export function Header({ redirectPopupTimestamp, showRedirectModal }: Props) {
               <img src={logoImg} className="big" alt="GMX Logo" />
               <img src={logoSmallImg} className="small" alt="GMX Logo" />
             </Link>
-            <HomeHeaderLinks redirectPopupTimestamp={redirectPopupTimestamp} showRedirectModal={showRedirectModal} />
+            <HomeHeaderLeft redirectPopupTimestamp={redirectPopupTimestamp} showRedirectModal={showRedirectModal} />
           </div>
           <div className="App-header-container-right">
-            <AppHeaderUser redirectPopupTimestamp={redirectPopupTimestamp} showRedirectModal={showRedirectModal} />
+            <HomeHeaderRight redirectPopupTimestamp={redirectPopupTimestamp} showRedirectModal={showRedirectModal} />
           </div>
         </div>
         <div className={cx("App-header", "small", { active: isDrawerVisible })}>
@@ -111,7 +111,7 @@ export function Header({ redirectPopupTimestamp, showRedirectModal }: Props) {
               </div>
             </div>
             <div className="App-header-container-right">
-              <AppHeaderUser
+              <HomeHeaderRight
                 small
                 redirectPopupTimestamp={redirectPopupTimestamp}
                 showRedirectModal={showRedirectModal}
@@ -131,7 +131,7 @@ export function Header({ redirectPopupTimestamp, showRedirectModal }: Props) {
             variants={slideVariants}
             transition={{ duration: 0.2 }}
           >
-            <HomeHeaderLinks
+            <HomeHeaderLeft
               small
               clickCloseIcon={() => setIsDrawerVisible(false)}
               redirectPopupTimestamp={redirectPopupTimestamp}

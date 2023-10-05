@@ -16,7 +16,7 @@ type Props = {
 
 type HomeLink = { label: string; link: string; isHomeLink?: boolean | false };
 
-export function HomeHeaderLinks({ small, clickCloseIcon, redirectPopupTimestamp, showRedirectModal }: Props) {
+export default function HomeHeaderLeft({ small, clickCloseIcon, redirectPopupTimestamp, showRedirectModal }: Props) {
   const HOME_MENUS: HomeLink[] = [
     {
       label: t`App`,

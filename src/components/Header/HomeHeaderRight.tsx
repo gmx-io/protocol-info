@@ -1,8 +1,8 @@
 import { Trans } from "@lingui/macro";
 
-import LanguagePopupHome from "../NetworkDropdown/LanguagePopupHome";
 import "./Header.css";
 import { HeaderLink } from "./HeaderLink";
+import LanguagePopup from "components/NetworkDropdown/LanguagePopup";
 
 type Props = {
   small?: boolean;
@@ -10,7 +10,7 @@ type Props = {
   showRedirectModal: (to: string) => void;
 };
 
-export function AppHeaderUser({ redirectPopupTimestamp, showRedirectModal }: Props) {
+export default function HomeHeaderRight({ redirectPopupTimestamp, showRedirectModal }: Props) {
   const tradeLink = true ? "/trade" : "/v2";
 
   return (
@@ -26,7 +26,7 @@ export function AppHeaderUser({ redirectPopupTimestamp, showRedirectModal }: Pro
         </HeaderLink>
       </div>
 
-      <LanguagePopupHome />
+      <LanguagePopup />
     </div>
   );
 }

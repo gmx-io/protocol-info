@@ -1,4 +1,4 @@
-import Portal from "../Common/Portal";
+import Portal from "components/Portal/Portal";
 import Modal from "./Modal";
 
 export default function ModalWithPortal(props) {
