@@ -1,7 +1,6 @@
 import { Trans } from "@lingui/macro";
 import { Link } from "react-router-dom";
 
-import ExternalLink from "components/ExternalLink/ExternalLink";
 import { ARBITRUM, AVALANCHE } from "config/chains";
 import { getIcon } from "config/icons";
 import APRLabel from "../APRLabel/APRLabel";
@@ -56,9 +55,9 @@ export default function TokenCard({ showRedirectModal, redirectPopupTimestamp })
                 <Trans>Buy on Avalanche</Trans>
               </BuyLink>
             </div>
-            <ExternalLink href="https://docs.gmx.io/docs/category/tokenomics" className="default-btn read-more">
+            <a href="https://docs.gmx.io/docs/category/tokenomics" className="default-btn read-more">
               <Trans>Read more</Trans>
-            </ExternalLink>
+            </a>
           </div>
         </div>
       </div>
