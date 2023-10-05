@@ -21,14 +21,6 @@ Open [http://localhost:3010](http://localhost:3010) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `yarn start-home`
-
-Start in development mode and show the home page.
-
-### `yarn start-app`
-
-Start in development mode and show the main app.
-
 ### `yarn test`
 
 Launches the test runner in the interactive watch mode.\
@@ -54,30 +46,8 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 - `lib/` - Infrastructure code independent of business logic (widely used in the project base modules and functions for interaction with data sources, common utils, etc.)
 
-  - `contracts`
-    - `callContract.ts` - e.g. base function for requesting contracts
-  - `chains`
-    - `utils.ts`
-    - `constants.ts`
-  - `request.js` - example base function for http requests
-  - `useLockBodyScroll.ts` - common ui hook
-  - `legacy.js` - Unstructured legacy code (moved from Helpers.js)
-
 - `domain/` - Project specific domain logic separated by entities and features, may contain
   data fetching, formatting, types and constants
-
-  - `orders/` - Example entity folder
-
-    - `types.ts` - Entity related types
-    - `utils.ts` - Functions for calculations and formatting, can be split into several files
-    - `contracts.ts` - Contracts calls
-    - `backend.ts` - Http requests
-    - `graph.ts` - Subgraph queries
-    - `useActiveOrders.ts` - some complex hook with aggregation logic
-    - `constants.ts`
-    - `hooks.ts`
-
-  - `legacy.js` - Unstructured legacy code (moved from Api/index.js)
 
 - `config/` - Often manually changed or environment-dependent global configs and constants, can contain simple getter functions
 - `styles/` - Global styles
@@ -106,82 +76,6 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
   3. Functions reused in the component, e.g. event handlers
   4. useEffect
   5. Render
-
-<details>
-    <summary>Example component structure</summary>
-
-- `components/`
-  - `SwapBox`
-    - `SwapBox.js`
-    - `SwapBox.css`
-    - `getErrorMessage.js` - only a component-specific logic
-
-</details>
-
-<details>
-    <summary>Example component body</summary>
-
-```(javascript)
-// components/SwapComponent/SwapComponent.tsx
-
-import {useInfoTokens} from 'domain/tokens/contracts'
-import {processSwap} from 'domain/exchange/contracts'
-...
-
-export function SwapComponent(props: Props) {
-const infoTokens = useInfoTokens(props.chainId, ...);
-const [selectedTokenAddress, setSelectedTokenAddress] = useState()
-const [amount, setAmount] = useState()
-const {tokenAmount, swapLimits, fees, ...} = useSwapState(
-props, {infoTokens, selectedTokenAddress, amount}
-)
-
-...
-
-useEffect(..., []);
-
-async function onButtonClick() {
-    ...
-    await processSwap(...)
-}
-
-return (
-    <div>
-        ....
-    </div>
-
-}
-
-```
-
-Optional separating component state evaluation if it contains a lot of logic which is highly
-dependent on props or a state of the component.
-
-```(javascript)
-components/SwapComponent/useSwapState.ts
-
-import {getTokenAmount} from 'domain/tokens/apiContracts'
-import {getSwapLimits} from 'domain/exchange/swap-utils'
-
-
-function useSwapState(props, {selectedTokenAddress, infoTokens, amount}) {
-  const infoTokens = useInfoTokens(props.chainId, ...);
-
-  const tokenAmount = getTokenAmount(infoTokens, selectedTokenAddress, ...)
-  const swapLimits = getSwapLimits(infoTokens, amount)
-
-  const swapFee = ...
-  const fees = ...
-
-  ...some calculations
-
-  return {...}
-}
-```
-
-</details>
-
----
 
 ### DataFlow
 
