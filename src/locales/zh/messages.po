@@ -29,7 +29,7 @@ msgstr "其他选项链接可在<0>docs</0>.<1/><2/>点选同意接受<3>相关�
 msgid "An aggregate of high-quality price feeds determine when liquidations occur. This keeps positions safe from temporary wicks."
 msgstr "高质量价格供给的总和决定了清算时间。使头寸不受暂时波动的影响"
 
-#: src/components/Header/HomeHeaderLinks.tsx
+#: src/components/Header/HeaderLeft.tsx
 msgid "App"
 msgstr ""
 
@@ -47,10 +47,6 @@ msgstr "可在您的首选网络上使用"
 msgid "Avalanche APR:"
 msgstr ""
 
-#: src/components/Header/AppHeaderLinks.tsx
-msgid "Buy"
-msgstr "购买"
-
 #: src/components/TokenCard/TokenCard.js
 #: src/components/TokenCard/TokenCard.js
 #: src/components/TokenCard/TokenCard.js
@@ -63,10 +59,6 @@ msgstr "在Arbitrum上购买"
 msgid "Buy on Avalanche"
 msgstr "在Avalanche上购买"
 
-#: src/components/Header/AppHeaderLinks.tsx
-msgid "Dashboard"
-msgstr "仪表板"
-
 #: src/lib/legacy.ts
 msgid "Decentralized Perpetual Exchange | GMX"
 msgstr ""
@@ -75,22 +67,13 @@ msgstr ""
 msgid "Decentralized<0/>Perpetual Exchange"
 msgstr "去中心化<0/>永续交易所"
 
-#: src/components/Header/AppHeaderLinks.tsx
-#: src/components/Header/HomeHeaderLinks.tsx
+#: src/components/Header/HeaderLeft.tsx
 msgid "Docs"
 msgstr ""
 
 #: src/components/ModalViews/RedirectModal.js
 msgid "Don't show this message again for 30 days."
 msgstr "30天内不要再显示此信息"
-
-#: src/components/Header/AppHeaderLinks.tsx
-msgid "Earn"
-msgstr "赚取"
-
-#: src/components/Header/AppHeaderLinks.tsx
-msgid "Ecosystem"
-msgstr "生态系统"
 
 #: src/pages/Home/Home.js
 msgid "Enter and exit positions with minimal spread and low price impact. Get the optimal price without incurring additional costs."
@@ -112,15 +95,15 @@ msgstr "GMX目前在Arbitrum和Avalanche上线"
 msgid "GMX is the utility and governance token. Accrues 30% of the platform's generated fees."
 msgstr "GMX是效用和治理代币。拥有30%累积平台产生的费用"
 
-#: src/components/Common/SEO.js
+#: src/components/SEO/SEO.tsx
 msgid "GMX | Decentralized Perpetual Exchange"
 msgstr ""
 
-#: src/components/Header/HomeHeaderLinks.tsx
+#: src/components/Header/HeaderLeft.tsx
 msgid "Governance"
 msgstr ""
 
-#: src/components/Header/AppHeaderUser.tsx
+#: src/components/Header/HeaderRight.tsx
 #: src/components/ModalViews/RedirectModal.js
 #: src/pages/Home/Home.js
 msgid "Launch App"
@@ -143,7 +126,7 @@ msgstr "通过简单的互换界面开立头寸。方便地从任何币值换成
 msgid "Page not found"
 msgstr "没有找到页面"
 
-#: src/components/Header/HomeHeaderLinks.tsx
+#: src/components/Header/HeaderLeft.tsx
 msgid "Protocol"
 msgstr ""
 
@@ -162,15 +145,11 @@ msgstr "降低清算风险"
 msgid "Referral Terms"
 msgstr "推荐条款"
 
-#: src/components/Header/AppHeaderLinks.tsx
-msgid "Referrals"
-msgstr "推荐人"
-
 #: src/pages/Home/Home.js
 msgid "Save on Costs"
 msgstr "节省成本"
 
-#: src/components/NetworkDropdown/LanguagePopupHome.tsx
+#: src/components/NetworkDropdown/LanguagePopup.tsx
 msgid "Select Language"
 msgstr ""
 
@@ -203,11 +182,11 @@ msgstr "用户总数"
 msgid "Trade BTC, ETH, AVAX and other top cryptocurrencies with up to 50x leverage directly from your wallet"
 msgstr ""
 
-#: src/components/Common/SEO.js
+#: src/components/SEO/SEO.tsx
 msgid "Trade spot or perpetual BTC, ETH, AVAX and other top cryptocurrencies with up to 50x leverage directly from your wallet on Arbitrum and Avalanche."
 msgstr ""
 
-#: src/components/Header/HomeHeaderLinks.tsx
+#: src/components/Header/HeaderLeft.tsx
 msgid "Voting"
 msgstr ""
 

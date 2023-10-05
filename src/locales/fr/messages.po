@@ -29,7 +29,7 @@ msgstr "Des liens alternatifs peuvent être trouvés dans la section <0>docs</0>
 msgid "An aggregate of high-quality price feeds determine when liquidations occur. This keeps positions safe from temporary wicks."
 msgstr "Un agrégat de flux de prix de qualité supérieure détermine quand les liquidations ont lieu. Cela protège les positions des oscillations temporaires."
 
-#: src/components/Header/HomeHeaderLinks.tsx
+#: src/components/Header/HeaderLeft.tsx
 msgid "App"
 msgstr "Application"
 
@@ -47,10 +47,6 @@ msgstr "Disponible sur le réseau de votre choix"
 msgid "Avalanche APR:"
 msgstr ""
 
-#: src/components/Header/AppHeaderLinks.tsx
-msgid "Buy"
-msgstr "Acheter"
-
 #: src/components/TokenCard/TokenCard.js
 #: src/components/TokenCard/TokenCard.js
 #: src/components/TokenCard/TokenCard.js
@@ -63,10 +59,6 @@ msgstr "Acheter sur Arbitrum"
 msgid "Buy on Avalanche"
 msgstr "Acheter sur Avalanche"
 
-#: src/components/Header/AppHeaderLinks.tsx
-msgid "Dashboard"
-msgstr "Tableau de bord"
-
 #: src/lib/legacy.ts
 msgid "Decentralized Perpetual Exchange | GMX"
 msgstr ""
@@ -75,22 +67,13 @@ msgstr ""
 msgid "Decentralized<0/>Perpetual Exchange"
 msgstr "Décentralisé <0/>Bourse perpétuelle"
 
-#: src/components/Header/AppHeaderLinks.tsx
-#: src/components/Header/HomeHeaderLinks.tsx
+#: src/components/Header/HeaderLeft.tsx
 msgid "Docs"
 msgstr "Documents"
 
 #: src/components/ModalViews/RedirectModal.js
 msgid "Don't show this message again for 30 days."
 msgstr "Ne montrez plus ce message pendant 30 jours."
-
-#: src/components/Header/AppHeaderLinks.tsx
-msgid "Earn"
-msgstr "Gagner"
-
-#: src/components/Header/AppHeaderLinks.tsx
-msgid "Ecosystem"
-msgstr "Écosystème"
 
 #: src/pages/Home/Home.js
 msgid "Enter and exit positions with minimal spread and low price impact. Get the optimal price without incurring additional costs."
@@ -112,15 +95,15 @@ msgstr "GMX est en émission direct sur Arbitrum et Avalanche."
 msgid "GMX is the utility and governance token. Accrues 30% of the platform's generated fees."
 msgstr "GMX est le token d'utilité et de gouvernance. Accumule 30% des frais générés par la plateforme."
 
-#: src/components/Common/SEO.js
+#: src/components/SEO/SEO.tsx
 msgid "GMX | Decentralized Perpetual Exchange"
 msgstr ""
 
-#: src/components/Header/HomeHeaderLinks.tsx
+#: src/components/Header/HeaderLeft.tsx
 msgid "Governance"
 msgstr "Gouvernance"
 
-#: src/components/Header/AppHeaderUser.tsx
+#: src/components/Header/HeaderRight.tsx
 #: src/components/ModalViews/RedirectModal.js
 #: src/pages/Home/Home.js
 msgid "Launch App"
@@ -143,7 +126,7 @@ msgstr "Ouvrez ces positions dans une interface d'échange simple. Échangez fac
 msgid "Page not found"
 msgstr "La page n'a pas été trouvée"
 
-#: src/components/Header/HomeHeaderLinks.tsx
+#: src/components/Header/HeaderLeft.tsx
 msgid "Protocol"
 msgstr ""
 
@@ -162,15 +145,11 @@ msgstr "Réduire les risques de liquidation"
 msgid "Referral Terms"
 msgstr "Termes de parrainage"
 
-#: src/components/Header/AppHeaderLinks.tsx
-msgid "Referrals"
-msgstr "Affiliés"
-
 #: src/pages/Home/Home.js
 msgid "Save on Costs"
 msgstr "Économiser sur les coûts"
 
-#: src/components/NetworkDropdown/LanguagePopupHome.tsx
+#: src/components/NetworkDropdown/LanguagePopup.tsx
 msgid "Select Language"
 msgstr ""
 
@@ -203,11 +182,11 @@ msgstr "Nombre total d'utilisateurs"
 msgid "Trade BTC, ETH, AVAX and other top cryptocurrencies with up to 50x leverage directly from your wallet"
 msgstr ""
 
-#: src/components/Common/SEO.js
+#: src/components/SEO/SEO.tsx
 msgid "Trade spot or perpetual BTC, ETH, AVAX and other top cryptocurrencies with up to 50x leverage directly from your wallet on Arbitrum and Avalanche."
 msgstr ""
 
-#: src/components/Header/HomeHeaderLinks.tsx
+#: src/components/Header/HeaderLeft.tsx
 msgid "Voting"
 msgstr ""
 

@@ -29,7 +29,7 @@ msgstr ""
 msgid "An aggregate of high-quality price feeds determine when liquidations occur. This keeps positions safe from temporary wicks."
 msgstr ""
 
-#: src/components/Header/HomeHeaderLinks.tsx
+#: src/components/Header/HeaderLeft.tsx
 msgid "App"
 msgstr ""
 
@@ -47,10 +47,6 @@ msgstr ""
 msgid "Avalanche APR:"
 msgstr ""
 
-#: src/components/Header/AppHeaderLinks.tsx
-msgid "Buy"
-msgstr ""
-
 #: src/components/TokenCard/TokenCard.js
 #: src/components/TokenCard/TokenCard.js
 #: src/components/TokenCard/TokenCard.js
@@ -63,10 +59,6 @@ msgstr ""
 msgid "Buy on Avalanche"
 msgstr ""
 
-#: src/components/Header/AppHeaderLinks.tsx
-msgid "Dashboard"
-msgstr ""
-
 #: src/lib/legacy.ts
 msgid "Decentralized Perpetual Exchange | GMX"
 msgstr ""
@@ -75,21 +67,12 @@ msgstr ""
 msgid "Decentralized<0/>Perpetual Exchange"
 msgstr ""
 
-#: src/components/Header/AppHeaderLinks.tsx
-#: src/components/Header/HomeHeaderLinks.tsx
+#: src/components/Header/HeaderLeft.tsx
 msgid "Docs"
 msgstr ""
 
 #: src/components/ModalViews/RedirectModal.js
 msgid "Don't show this message again for 30 days."
-msgstr ""
-
-#: src/components/Header/AppHeaderLinks.tsx
-msgid "Earn"
-msgstr ""
-
-#: src/components/Header/AppHeaderLinks.tsx
-msgid "Ecosystem"
 msgstr ""
 
 #: src/pages/Home/Home.js
@@ -112,15 +95,15 @@ msgstr ""
 msgid "GMX is the utility and governance token. Accrues 30% of the platform's generated fees."
 msgstr ""
 
-#: src/components/Common/SEO.js
+#: src/components/SEO/SEO.tsx
 msgid "GMX | Decentralized Perpetual Exchange"
 msgstr ""
 
-#: src/components/Header/HomeHeaderLinks.tsx
+#: src/components/Header/HeaderLeft.tsx
 msgid "Governance"
 msgstr ""
 
-#: src/components/Header/AppHeaderUser.tsx
+#: src/components/Header/HeaderRight.tsx
 #: src/components/ModalViews/RedirectModal.js
 #: src/pages/Home/Home.js
 msgid "Launch App"
@@ -143,7 +126,7 @@ msgstr ""
 msgid "Page not found"
 msgstr ""
 
-#: src/components/Header/HomeHeaderLinks.tsx
+#: src/components/Header/HeaderLeft.tsx
 msgid "Protocol"
 msgstr ""
 
@@ -162,15 +145,11 @@ msgstr ""
 msgid "Referral Terms"
 msgstr ""
 
-#: src/components/Header/AppHeaderLinks.tsx
-msgid "Referrals"
-msgstr ""
-
 #: src/pages/Home/Home.js
 msgid "Save on Costs"
 msgstr ""
 
-#: src/components/NetworkDropdown/LanguagePopupHome.tsx
+#: src/components/NetworkDropdown/LanguagePopup.tsx
 msgid "Select Language"
 msgstr ""
 
@@ -203,11 +182,11 @@ msgstr ""
 msgid "Trade BTC, ETH, AVAX and other top cryptocurrencies with up to 50x leverage directly from your wallet"
 msgstr ""
 
-#: src/components/Common/SEO.js
+#: src/components/SEO/SEO.tsx
 msgid "Trade spot or perpetual BTC, ETH, AVAX and other top cryptocurrencies with up to 50x leverage directly from your wallet on Arbitrum and Avalanche."
 msgstr ""
 
-#: src/components/Header/HomeHeaderLinks.tsx
+#: src/components/Header/HeaderLeft.tsx
 msgid "Voting"
 msgstr ""
 

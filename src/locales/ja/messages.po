@@ -29,7 +29,7 @@ msgstr "他にもリンクが <0>文書ページ</0>にあります。<1/><2/>�
 msgid "An aggregate of high-quality price feeds determine when liquidations occur. This keeps positions safe from temporary wicks."
 msgstr "清算が発生した時点で高品質の価格フィードの集成価格が確定します。これによりポジションは一時的変動から守られます。"
 
-#: src/components/Header/HomeHeaderLinks.tsx
+#: src/components/Header/HeaderLeft.tsx
 msgid "App"
 msgstr ""
 
@@ -47,10 +47,6 @@ msgstr "選択されたネットワークにて利用可能"
 msgid "Avalanche APR:"
 msgstr ""
 
-#: src/components/Header/AppHeaderLinks.tsx
-msgid "Buy"
-msgstr "購入"
-
 #: src/components/TokenCard/TokenCard.js
 #: src/components/TokenCard/TokenCard.js
 #: src/components/TokenCard/TokenCard.js
@@ -63,10 +59,6 @@ msgstr "Arbitrumで購入"
 msgid "Buy on Avalanche"
 msgstr "Avalancheで購入"
 
-#: src/components/Header/AppHeaderLinks.tsx
-msgid "Dashboard"
-msgstr "ダッシュボード"
-
 #: src/lib/legacy.ts
 msgid "Decentralized Perpetual Exchange | GMX"
 msgstr ""
@@ -75,22 +67,13 @@ msgstr ""
 msgid "Decentralized<0/>Perpetual Exchange"
 msgstr "分散型<0/>パーペチュアル取引所"
 
-#: src/components/Header/AppHeaderLinks.tsx
-#: src/components/Header/HomeHeaderLinks.tsx
+#: src/components/Header/HeaderLeft.tsx
 msgid "Docs"
 msgstr ""
 
 #: src/components/ModalViews/RedirectModal.js
 msgid "Don't show this message again for 30 days."
 msgstr "30日間このメッセージを表示しない"
-
-#: src/components/Header/AppHeaderLinks.tsx
-msgid "Earn"
-msgstr "報酬獲得"
-
-#: src/components/Header/AppHeaderLinks.tsx
-msgid "Ecosystem"
-msgstr "エコシステム"
 
 #: src/pages/Home/Home.js
 msgid "Enter and exit positions with minimal spread and low price impact. Get the optimal price without incurring additional costs."
@@ -112,15 +95,15 @@ msgstr "GMXは現在ArbitrumとAvalancheで稼働中です。"
 msgid "GMX is the utility and governance token. Accrues 30% of the platform's generated fees."
 msgstr "GMXはユーティリティトークン兼ガバナンストークンです。プラットフォームが得た手数料の30%を獲得します。"
 
-#: src/components/Common/SEO.js
+#: src/components/SEO/SEO.tsx
 msgid "GMX | Decentralized Perpetual Exchange"
 msgstr ""
 
-#: src/components/Header/HomeHeaderLinks.tsx
+#: src/components/Header/HeaderLeft.tsx
 msgid "Governance"
 msgstr ""
 
-#: src/components/Header/AppHeaderUser.tsx
+#: src/components/Header/HeaderRight.tsx
 #: src/components/ModalViews/RedirectModal.js
 #: src/pages/Home/Home.js
 msgid "Launch App"
@@ -143,7 +126,7 @@ msgstr "シンプルなスワップインターフェースでポジションを
 msgid "Page not found"
 msgstr "ページが見つかりません"
 
-#: src/components/Header/HomeHeaderLinks.tsx
+#: src/components/Header/HeaderLeft.tsx
 msgid "Protocol"
 msgstr ""
 
@@ -162,15 +145,11 @@ msgstr "清算リスクを減らす"
 msgid "Referral Terms"
 msgstr "紹介の規約"
 
-#: src/components/Header/AppHeaderLinks.tsx
-msgid "Referrals"
-msgstr "紹介アカウント"
-
 #: src/pages/Home/Home.js
 msgid "Save on Costs"
 msgstr "コスト削減"
 
-#: src/components/NetworkDropdown/LanguagePopupHome.tsx
+#: src/components/NetworkDropdown/LanguagePopup.tsx
 msgid "Select Language"
 msgstr ""
 
@@ -203,11 +182,11 @@ msgstr "ユーザー総数"
 msgid "Trade BTC, ETH, AVAX and other top cryptocurrencies with up to 50x leverage directly from your wallet"
 msgstr ""
 
-#: src/components/Common/SEO.js
+#: src/components/SEO/SEO.tsx
 msgid "Trade spot or perpetual BTC, ETH, AVAX and other top cryptocurrencies with up to 50x leverage directly from your wallet on Arbitrum and Avalanche."
 msgstr ""
 
-#: src/components/Header/HomeHeaderLinks.tsx
+#: src/components/Header/HeaderLeft.tsx
 msgid "Voting"
 msgstr ""
 
