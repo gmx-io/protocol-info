@@ -29,7 +29,7 @@ msgstr "이외의 링크는 <0>docs</0>에서 확인할 수 있습니다.<1/><2/
 msgid "An aggregate of high-quality price feeds determine when liquidations occur. This keeps positions safe from temporary wicks."
 msgstr "고품질의 여러 가격 피드를 통해 청산 발생 시기를 결정합니다. 이것은 일시적인 가격 변화로부터 포지션을 안전하게 유지합니다."
 
-#: src/components/Header/HomeHeaderLinks.tsx
+#: src/components/Header/HeaderLeft.tsx
 msgid "App"
 msgstr ""
 
@@ -47,10 +47,6 @@ msgstr "선택한 네트워크에서 이용가능"
 msgid "Avalanche APR:"
 msgstr ""
 
-#: src/components/Header/AppHeaderLinks.tsx
-msgid "Buy"
-msgstr "구매"
-
 #: src/components/TokenCard/TokenCard.js
 #: src/components/TokenCard/TokenCard.js
 #: src/components/TokenCard/TokenCard.js
@@ -63,10 +59,6 @@ msgstr "Arbitrum에서 구매"
 msgid "Buy on Avalanche"
 msgstr "Avalanche에서 구매"
 
-#: src/components/Header/AppHeaderLinks.tsx
-msgid "Dashboard"
-msgstr "대시보드"
-
 #: src/lib/legacy.ts
 msgid "Decentralized Perpetual Exchange | GMX"
 msgstr ""
@@ -75,22 +67,13 @@ msgstr ""
 msgid "Decentralized<0/>Perpetual Exchange"
 msgstr "탈중앙화<0/>퍼페추얼 거래소"
 
-#: src/components/Header/AppHeaderLinks.tsx
-#: src/components/Header/HomeHeaderLinks.tsx
+#: src/components/Header/HeaderLeft.tsx
 msgid "Docs"
 msgstr ""
 
 #: src/components/ModalViews/RedirectModal.js
 msgid "Don't show this message again for 30 days."
 msgstr "30일 동안 해당 메시지 다시보지 않기"
-
-#: src/components/Header/AppHeaderLinks.tsx
-msgid "Earn"
-msgstr "보상"
-
-#: src/components/Header/AppHeaderLinks.tsx
-msgid "Ecosystem"
-msgstr "이코시스템"
 
 #: src/pages/Home/Home.js
 msgid "Enter and exit positions with minimal spread and low price impact. Get the optimal price without incurring additional costs."
@@ -112,15 +95,15 @@ msgstr "GMX는 현재 Arbitrum과 Avalanche에서 이용할 수 있습니다."
 msgid "GMX is the utility and governance token. Accrues 30% of the platform's generated fees."
 msgstr "GMX는 유틸리티 및 거버넌스 토큰입니다. 플랫폼에서 생성되는 수수료의 30%를 축적하세요."
 
-#: src/components/Common/SEO.js
+#: src/components/SEO/SEO.tsx
 msgid "GMX | Decentralized Perpetual Exchange"
 msgstr ""
 
-#: src/components/Header/HomeHeaderLinks.tsx
+#: src/components/Header/HeaderLeft.tsx
 msgid "Governance"
 msgstr ""
 
-#: src/components/Header/AppHeaderUser.tsx
+#: src/components/Header/HeaderRight.tsx
 #: src/components/ModalViews/RedirectModal.js
 #: src/pages/Home/Home.js
 msgid "Launch App"
@@ -143,7 +126,7 @@ msgstr "간단한 스왑 인터페이스를 통해 포지션을 열어보세요.
 msgid "Page not found"
 msgstr "페이지를 찾을 수 없습니다"
 
-#: src/components/Header/HomeHeaderLinks.tsx
+#: src/components/Header/HeaderLeft.tsx
 msgid "Protocol"
 msgstr ""
 
@@ -162,15 +145,11 @@ msgstr "청산 위험 감소하기"
 msgid "Referral Terms"
 msgstr "추천 약관"
 
-#: src/components/Header/AppHeaderLinks.tsx
-msgid "Referrals"
-msgstr "추천"
-
 #: src/pages/Home/Home.js
 msgid "Save on Costs"
 msgstr "비용 절감"
 
-#: src/components/NetworkDropdown/LanguagePopupHome.tsx
+#: src/components/NetworkDropdown/LanguagePopup.tsx
 msgid "Select Language"
 msgstr ""
 
@@ -203,11 +182,11 @@ msgstr "총 유저"
 msgid "Trade BTC, ETH, AVAX and other top cryptocurrencies with up to 50x leverage directly from your wallet"
 msgstr ""
 
-#: src/components/Common/SEO.js
+#: src/components/SEO/SEO.tsx
 msgid "Trade spot or perpetual BTC, ETH, AVAX and other top cryptocurrencies with up to 50x leverage directly from your wallet on Arbitrum and Avalanche."
 msgstr ""
 
-#: src/components/Header/HomeHeaderLinks.tsx
+#: src/components/Header/HeaderLeft.tsx
 msgid "Voting"
 msgstr ""
 

@@ -21,7 +21,6 @@ import "styles/Shared.css";
 import "./App.scss";
 
 import Home from "pages/Home/Home";
-import SEO from "components/Common/SEO";
 import EventToastContainer from "components/EventToast/EventToastContainer";
 import useEventToast from "components/EventToast/useEventToast";
 
@@ -31,6 +30,7 @@ import ReferralTerms from "pages/ReferralTerms/ReferralTerms";
 import TermsAndConditions from "pages/TermsAndConditions/TermsAndConditions";
 
 import { Header } from "components/Header/Header";
+import SEO from "components/SEO/SEO";
 
 function FullApp() {
   const location = useLocation();

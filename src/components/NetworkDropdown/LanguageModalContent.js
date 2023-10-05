@@ -10,7 +10,7 @@ export default function LanguageModalContent({ currentLanguage }) {
     return (
       <div
         key={item}
-        className={cx("network-dropdown-menu-item  menu-item language-modal-item", {
+        className={cx("language-dropdown-menu-item  menu-item language-modal-item", {
           active: currentLanguage.current === item,
         })}
         onClick={() => {
@@ -22,11 +22,11 @@ export default function LanguageModalContent({ currentLanguage }) {
       >
         <div className="menu-item-group">
           <div className="menu-item-icon">
-            {isTestLanguage(item) ? "🫐" : <img className="network-dropdown-icon" src={image} alt={locales[item]} />}
+            {isTestLanguage(item) ? "🫐" : <img className="language-dropdown-icon" src={image} alt={locales[item]} />}
           </div>
-          <span className="network-dropdown-item-label menu-item-label">{locales[item]}</span>
+          <span className="language-dropdown-item-label menu-item-label">{locales[item]}</span>
         </div>
-        <div className="network-dropdown-menu-item-img">
+        <div className="language-dropdown-menu-item-img">
           {currentLanguage.current === item && <img src={checkedIcon} alt={locales[item]} />}
         </div>
       </div>
